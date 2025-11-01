@@ -1,0 +1,171 @@
+2025-10-17 19:20:56,771 - INFO - app.core.logger - Starting up...
+2025-10-17 19:32:15,323 - INFO - app.core.logger - undefined
+2025-10-17 19:32:15,333 - INFO - app.core.logger - undefined
+2025-10-17 19:32:33,637 - INFO - app.core.logger - undefined
+2025-10-17 19:32:33,644 - INFO - app.core.logger - undefined
+2025-10-17 19:35:21,414 - INFO - app.core.logger - undefined
+2025-10-17 19:35:21,418 - INFO - app.core.logger - undefined
+2025-10-17 19:35:57,328 - INFO - app.core.logger - undefined
+2025-10-17 19:35:57,340 - INFO - app.core.logger - undefined
+2025-10-17 19:36:57,349 - INFO - app.core.logger - undefined
+2025-10-17 19:36:57,354 - INFO - app.core.logger - undefined
+2025-10-17 19:39:19,048 - INFO - app.core.logger - undefined
+2025-10-17 19:39:19,055 - INFO - app.core.logger - undefined
+2025-10-17 19:39:41,372 - INFO - app.core.logger - undefined
+2025-10-17 19:39:41,376 - INFO - app.core.logger - undefined
+2025-10-17 22:28:02,038 - INFO - app.core.logger - undefined
+2025-10-17 22:28:02,043 - INFO - app.core.logger - undefined
+2025-10-18 12:57:13,352 - INFO - app.core.logger - Starting up...
+2025-10-18 13:11:58,886 - INFO - app.core.logger - undefined
+2025-10-18 13:11:58,897 - INFO - app.core.logger - undefined
+2025-10-18 13:34:57,814 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:35:03,617 - INFO - app.core.logger - Starting up...
+2025-10-18 13:35:03,920 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:35:04,966 - INFO - app.core.logger - Starting up...
+2025-10-18 13:35:21,528 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:35:22,466 - INFO - app.core.logger - Starting up...
+2025-10-18 13:41:15,687 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:41:16,803 - INFO - app.core.logger - Starting up...
+2025-10-18 13:41:19,214 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:41:20,312 - INFO - app.core.logger - Starting up...
+2025-10-18 13:41:22,625 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:41:26,117 - INFO - app.core.logger - Starting up...
+2025-10-18 13:41:26,420 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:41:27,461 - INFO - app.core.logger - Starting up...
+2025-10-18 13:43:13,937 - INFO - app.core.logger - first_name='string' last_name='string' email='user@example.com' phone='' username='' active=True deleted=False password='string' role_id=UUID('3fa85f64-5717-4562-b3fc-2c963f66afa6')
+2025-10-18 13:44:54,653 - INFO - app.core.logger - Shutting down...
+2025-10-18 13:44:56,087 - INFO - app.core.logger - Starting up...
+2025-10-18 13:45:00,515 - INFO - app.core.logger - first_name='string' last_name='string' email='user@example.com' phone='' username='' active=True deleted=False password='string' role_id='0000'
+2025-10-18 13:45:00,587 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/oualid.ouzanik/Homespace/tighmrt.com/backend/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-10-18 13:45:59,628 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:45:59,673 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:45:59,706 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:50:05,858 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:50:05,878 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:50:05,904 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:51:43,968 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:51:44,008 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 13:51:44,044 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:44:45,310 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:44:45,333 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:44:45,361 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:47:11,227 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:47:43,363 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:49:19,722 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 16:51:35,516 - INFO - app.core.logger - Shutting down...
+2025-10-18 16:51:36,552 - INFO - app.core.logger - Starting up...
+2025-10-18 16:54:03,215 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:01:50,832 - INFO - app.core.logger - Shutting down...
+2025-10-18 17:01:51,760 - INFO - app.core.logger - Starting up...
+2025-10-18 17:15:09,958 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:24:41,834 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:24:41,871 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:24:41,915 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:28:19,469 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:35:30,496 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:46:35,802 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:46:51,036 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:46:51,055 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:46:51,080 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:51:58,313 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:51:58,425 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:51:58,431 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 17:54:04,370 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:54:04,462 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:54:04,467 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 17:54:04,542 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:54:42,625 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:54:42,732 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:54:42,739 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 17:54:42,788 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:55:46,763 - INFO - app.core.logger - Shutting down...
+2025-10-18 17:55:47,886 - INFO - app.core.logger - Starting up...
+2025-10-18 17:55:58,726 - INFO - app.core.logger - Shutting down...
+2025-10-18 17:55:59,749 - INFO - app.core.logger - Starting up...
+2025-10-18 17:56:16,260 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:56:16,375 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 17:56:16,382 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 17:56:16,433 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:41:43,956 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:41:43,987 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:41:43,989 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 19:41:44,012 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:48:41,960 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:48:42,003 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:48:42,008 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 19:48:42,029 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 19:55:53,860 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:55:54,344 - INFO - app.core.logger - Starting up...
+2025-10-18 19:56:13,605 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:56:14,085 - INFO - app.core.logger - Starting up...
+2025-10-18 19:56:15,993 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:56:16,411 - INFO - app.core.logger - Starting up...
+2025-10-18 19:56:19,020 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:56:19,478 - INFO - app.core.logger - Starting up...
+2025-10-18 19:58:01,085 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:58:01,505 - INFO - app.core.logger - Starting up...
+2025-10-18 19:58:21,161 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:58:21,552 - INFO - app.core.logger - Starting up...
+2025-10-18 19:58:35,901 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:58:36,290 - INFO - app.core.logger - Starting up...
+2025-10-18 19:58:37,694 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:58:38,085 - INFO - app.core.logger - Starting up...
+2025-10-18 19:59:03,364 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:59:03,771 - INFO - app.core.logger - Starting up...
+2025-10-18 19:59:15,604 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:59:16,014 - INFO - app.core.logger - Starting up...
+2025-10-18 19:59:50,827 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:59:51,253 - INFO - app.core.logger - Starting up...
+2025-10-18 19:59:58,674 - INFO - app.core.logger - Shutting down...
+2025-10-18 19:59:59,157 - INFO - app.core.logger - Starting up...
+2025-10-18 20:01:16,580 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:01:16,625 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:01:16,626 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 20:01:16,643 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:02:29,272 - WARNING - passlib.handlers.bcrypt - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/oualid.ouzanik/Homespace/tighmrt.com/backend/.venv/lib/python3.13/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2025-10-18 20:02:37,425 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxNDIyNTQ5fQ.Z19lShBYLFNTSIr1Ndhm0QMvVpg5AwfFX6pJyByUqTY
+2025-10-18 20:04:18,163 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNjUzfQ.qLRggmFIhj1a-HoTXDTifDX9fYhOWijCgmIaSpJVDRI
+2025-10-18 20:04:48,114 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:04:48,152 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:04:48,154 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by 
+2025-10-18 20:04:48,167 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzYxMzk5OTQ0fQ.1KyfbrJhPeRLUiTRFvVFm25_fPZ7Nc0FrfLMk7VRUjw
+2025-10-18 20:05:15,784 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 20:05:15,789 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 20:05:15,808 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 20:05:15,810 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 20:05:15,823 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 20:05:15,826 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 20:05:15,841 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 20:05:15,855 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDIyNzEyfQ.NxWgkWJSgqhS-oiHB84XIdY8EPWkJ2ApNJgWf50DEW8
+2025-10-18 23:26:50,534 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:26:50,538 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:26:50,576 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:26:50,579 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 23:26:50,589 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:26:50,591 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 23:26:50,609 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:26:50,624 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:28:26,655 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:28:26,664 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:28:53,944 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:28:53,948 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,736 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,739 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,750 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,753 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 23:32:25,758 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,760 - INFO - app.core.logger - Trying to get users with skip: 0 and limit: 10 by dilauoo
+2025-10-18 23:32:25,767 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:32:25,777 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:33:04,258 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
+2025-10-18 23:33:04,261 - INFO - app.core.logger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWxhdW9vQHRpZ2htcnQuY29tIiwiZXhwIjoxNzYxNDM0ODAxfQ.N6LtWTUBY8q1l7IwDozyadLbMOSZMBs_ZRG17T3QTLU
