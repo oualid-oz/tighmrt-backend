@@ -3,12 +3,12 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.dialects.postgresql import UUID
 from app.db.base_class import Base
 from datetime import datetime
-
+import uuid
 
 class User(Base):
     __tablename__ = "users"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, index=True)
+    id = Column(UUID(as_uuid=True), primary_key=True, index=True, default=uuid.uuid4)
     first_name = Column(String, nullable=False)
     last_name = Column(String, nullable=False)
     phone = Column(String, index=True, nullable=False)
@@ -26,3 +26,6 @@ class User(Base):
     role = relationship("Role", back_populates="users")
     tasks = relationship("Task", back_populates="user", cascade="all, delete-orphan")
     task_lists = relationship("TaskList", back_populates="user", cascade="all, delete-orphan")
+
+    def __repr__(self):
+        return f"User(id={self.id}, first_name={self.first_name}, last_name={self.last_name}, phone={self.phone}, email={self.email}, username={self.username}, active={self.active}, deleted={self.deleted}, created_at={self.created_at}, updated_at={self.updated_at})"

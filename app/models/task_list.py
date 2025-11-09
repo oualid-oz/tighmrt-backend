@@ -3,12 +3,14 @@ from sqlalchemy.orm import relationship
 from app.db.base_class import Base
 from sqlalchemy.dialects.postgresql import UUID
 from datetime import datetime
+import uuid
 
 class TaskList(Base):
     __tablename__ = "task_lists"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, index=True)
+    id = Column(UUID(as_uuid=True), primary_key=True, index=True, default=uuid.uuid4)
     name = Column(String(100), index=True, nullable=False)
+    color = Column(String(7), nullable=False)
     description = Column(String(255), nullable=True)
     created_at = Column(DateTime, default=datetime.now())
     updated_at = Column(DateTime, default=datetime.now(), onupdate=datetime.now())
@@ -17,3 +19,6 @@ class TaskList(Base):
     # Relationships
     user = relationship("User", back_populates="task_lists")
     tasks = relationship("Task", back_populates="task_list", cascade="all, delete-orphan")
+
+    def __repr__(self):
+        return f"TaskList(id={self.id}, name={self.name}, color={self.color}, description={self.description})"
