@@ -3,11 +3,12 @@ from sqlalchemy.orm import relationship
 from datetime import datetime
 from app.db.base_class import Base
 from sqlalchemy.dialects.postgresql import UUID
+import uuid
 
 class Task(Base):
     __tablename__ = "tasks"
 
-    id = Column(UUID(as_uuid=True), primary_key=True, index=True)
+    id = Column(UUID(as_uuid=True), primary_key=True, index=True, default=uuid.uuid4)
     title = Column(String, nullable=False)
     description = Column(String, nullable=True)
     is_completed = Column(Boolean, default=False)
@@ -19,3 +20,6 @@ class Task(Base):
     # Relationships
     user = relationship("User", back_populates="tasks")
     task_list = relationship("TaskList", back_populates="tasks")
+
+    def __repr__(self):
+        return f"Task(id={self.id}, title={self.title}, description={self.description}, is_completed={self.is_completed}, due_date={self.due_date})"

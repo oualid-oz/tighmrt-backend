@@ -4,7 +4,7 @@ from app.core.security import get_password_hash
 from app.models.role import Role
 from sqlalchemy.orm import Session
 from uuid import uuid4
-from app.core.logger import logger
+import logging
 
 def create_user(db: Session, user_in: UserCreate):
     role = db.query(Role).filter(Role.code == user_in.role_id).first()
@@ -29,15 +29,15 @@ def get_user_by_email(db: Session, email: str):
 def get_users(current_user: User, db: Session, pagination: dict) -> list[User]:
     skip = pagination.get("skip", 0)
     limit = pagination.get("limit", 10)
-    logger.info(f"Trying to get users with skip: {skip} and limit: {limit} by {current_user.username}")
+    logging.info(f"Trying to get users with skip: {skip} and limit: {limit} by {current_user.username}")
     return db.query(User).offset(skip).limit(limit).all()
 
 def get_user(user_id: str, db: Session, current_user: User) -> User | None:
-    logger.info(f"Trying to get user with id: {user_id} by {current_user.username}")
+    logging.info(f"Trying to get user with id: {user_id} by {current_user.username}")
     return db.query(User).filter(User.id == user_id).first()
 
 def update_user(current_user: User, db: Session, user_id: str, user_in: UserUpdate) -> User | None:
-    logger.info(f"Trying to update user with id: {user_id} by {current_user.username}")
+    logging.info(f"Trying to update user with id: {user_id} by {current_user.username}")
     db_user = db.query(User).filter(User.id == user_id).first()
     if not db_user:
         return None
@@ -51,15 +51,15 @@ def update_user(current_user: User, db: Session, user_id: str, user_in: UserUpda
     db_user.deleted = user_in.deleted or db_user.deleted
     db.commit()
     db.refresh(db_user)
-    logger.info(f"User with id: {user_id} updated by {current_user.username}")
+    logging.info(f"User with id: {user_id} updated by {current_user.username}")
     return db_user
     
 def delete_user(db: Session, user_id: str) -> User | None:
-    logger.info(f"Trying to delete user with id: {user_id}")
+    logging.info(f"Trying to delete user with id: {user_id}")
     db_user = db.query(User).filter(User.id == user_id).first()
     if not db_user:
         return None
     db.delete(db_user)
     db.commit()
-    logger.info(f"User with id: {user_id} deleted")
+    logging.info(f"User with id: {user_id} deleted")
     return db_user

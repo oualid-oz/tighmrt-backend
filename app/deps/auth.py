@@ -5,7 +5,6 @@ from sqlalchemy.orm import Session
 from app.db.session import get_db
 from app.core.security import decode_access_token
 from app.crud.crud_user import get_user_by_email
-from app.core.logger import logger
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
@@ -21,7 +20,6 @@ def get_current_user(
     )
 
     try:
-        logger.info(token)
         payload = decode_access_token(token)
         email: str = payload.get("sub")
         if email is None:
