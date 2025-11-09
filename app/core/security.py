@@ -1,13 +1,19 @@
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
 from jose import jwt, JWTError
-from fastapi import HTTPException
+from fastapi import HTTPException, Depends, status
+from fastapi.security import OAuth2PasswordBearer
+from sqlalchemy.orm import Session
+from app.db.session import get_db
+from app.models.user import User
+from app.db.base_class import Base
 
 SECRET_KEY = "dilauoo@tighmrt.com"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="api/v1/auth/login")
 
 def get_password_hash(password: str) -> str:
     return pwd_context.hash(password)
@@ -29,4 +35,26 @@ def decode_access_token(token: str):
         raise HTTPException(status_code=401, detail="Token expired")
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
+
+def get_user_by_email(db: Session, email: str):
+    """Utility function to get user by email without circular imports"""
+    return db.query(User).filter(User.email == email).first()
+
+async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
+    credentials_exception = HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail="Could not validate credentials",
+        headers={"WWW-Authenticate": "Bearer"},
+    )
+    try:
+        payload = decode_access_token(token)
+        email: str = payload.get("sub")
+        if email is None:
+            raise credentials_exception
+    except JWTError:
+        raise credentials_exception
     
+    user = get_user_by_email(db, email=email)
+    if user is None:
+        raise credentials_exception
+    return user

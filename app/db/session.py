@@ -1,10 +1,13 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from fastapi import Depends
+from typing import Annotated
+import os
 
 # Example PostgreSQL URL — update with your actual credentials
-SQLALCHEMY_DATABASE_URL = "postgresql+psycopg2://postgres:postgres@localhost:5432/taskdb"
+DATABASE_URL = os.getenv("DATABASE_URL")
 
-engine = create_engine(SQLALCHEMY_DATABASE_URL)
+engine = create_engine(DATABASE_URL or "postgresql+psycopg2://postgres:postgres@localhost:5432/taskdb")
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
@@ -15,3 +18,5 @@ def get_db():
         yield db
     finally:
         db.close()
+
+DBSession = Annotated[SessionLocal, Depends(get_db)]
