@@ -1,18 +1,19 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.v1.router import routers
-from app.db.session import engine
-from app.db.base_class import Base
 from app.core.logger import configure_logger, LogLevels
+from app.core.config import settings
 import logging
 
-# Base.metadata.create_all(bind=engine)
-
-app = FastAPI(title="Tighmrt - backend", description="Tighmrt - Task Manager API", version="0.0.1")
+app = FastAPI(
+    title=settings.APP_NAME,
+    description=settings.APP_DESCRIPTION,
+    version=settings.APP_VERSION,
+)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=settings.BACKEND_CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -20,16 +21,20 @@ app.add_middleware(
 
 configure_logger(LogLevels.INFO)
 
+
 @app.on_event("startup")
-def startup():
+async def startup():
     logging.info("Starting up...")
 
+
 @app.on_event("shutdown")
-def shutdown():
+async def shutdown():
     logging.info("Shutting down...")
+
 
 @app.get("/", tags=["root"])
 def read_root():
-    return {"message": "Welcome to Tighmrt - Task Manager API"}
-    
+    return {"message": "Welcome to " + settings.APP_NAME}
+
+
 app.include_router(routers, prefix="/api/v1")
