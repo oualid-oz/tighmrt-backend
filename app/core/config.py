@@ -28,7 +28,10 @@ class Settings(BaseSettings):
 
     @property
     def SQLALCHEMY_DATABASE_URI(self) -> str:
-        return f"postgresql+psycopg2://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_SERVER}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
+        # Build the database URL
+        port = f":{self.POSTGRES_PORT}" if self.POSTGRES_PORT else ""
+        url = f"postgresql+psycopg2://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_SERVER}{port}/{self.POSTGRES_DB}"
+        return url
 
 
 settings = Settings()
